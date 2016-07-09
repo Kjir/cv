@@ -1,4 +1,5 @@
 ---
+# Create CV from yaml file. See https://github.com/prat0318/json_resume
 settings:
   icons: true
 firstname: Stéphane
