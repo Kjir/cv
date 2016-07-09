@@ -48,7 +48,9 @@ Bachelor of Information Technology | Computer Science | Università di Bologna, 
 
 ### Other Personal Projects
 * Open Source contributions
+    - vim-test https://github.com/janko-m/vim-test
     - WSME project https://pythonhosted.org/WSME/
+    - xhtml2pdf https://github.com/xhtml2pdf/xhtml2pdf
     - aMSN2 project https://github.com/amsn/amsn2
     - centerIM project http://repo.or.cz/centerim.git
 * Full Resume
