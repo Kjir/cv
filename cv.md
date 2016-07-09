@@ -5,8 +5,8 @@ Python - Angular - Git - Vim
 
 ### Qualifications summary
 * All rounder when it comes to programming languages, able to fill in different positions.
-* Interested in the quality of the work being done, with strong opinions but an open mindset.
-* Good comunication skills: able to explain technical choices. I enjoy public speaking.
+* Software quality and task automation make me a happy programmer.
+* I love using and contributing to Open Source software.
 
 
 ### Technical Skills
