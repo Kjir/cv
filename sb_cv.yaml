@@ -27,9 +27,9 @@ bio_data:
               - Python
               - Ruby
               - Javascript
+              - C/C++
               - Elixir
               - Elm
-              - C
               - ...and many others!
         - type: Web Frameworks
           items:
@@ -37,13 +37,12 @@ bio_data:
             - Angular
             - React
             - Phoenix
-            - Elm
         - type: Databases
           items:
               - PostgreSQL
               - MySQL
   education:
-    show_gpa: false
+    show_gpa: true
     schools:
         - degree: Bachelor of Information Technology
           major: Computer Science
@@ -133,30 +132,48 @@ bio_data:
                 - Java
                 - ZK
                 - jBoss
-        - title: Junior Software Developer
-          organisation: Eutelia
-          location: Milan, Italy
-          from: Nov. 2006
-          to: Jun. 2007
+        - title: C++ Intern
+          organisation: Istituto di Radioastronomia
+          location: Medicina (BO), Italy
+          from: May. 2009
+          to: Jun. 2010
           details:
-              - Worked with a team developing a social network for the italian
-                portal leonardo.it
-              - Helped another Junior developer to get up to speed with the project.
-              - Created a log system to simplify the development process with
-                detailed error messages.
-              - Profiled and optimized the application using xdebug.
-              - Wrote the deployment scripts for the production environment with a
-                backup of the previous release.
-              - Developed a Python script to synchronize through the Spread Toolkit
-                the user credentials with partner websites to implement a
-                rudimentary Single Sign-On.
+            - Worked as an intern and for my thesis on a software spectrogram.
+            - Used the Intel IPP to transfom time signals in their power spectrum.
+            - Allowed the software to be extended with additional filters.
+            - Extended the program to accept input through an UDP socket.
+            - Added multithreading support to enhance performances.
           technology_used:
             tools:
-                - PHP
-                - Zend Framework
-                - Spread Toolkit
-                - xdebug
-                - MySQL
+                - C++
+                - Boost
+                - Intel IPP
+                - Autotools
+                - Python
+        # - title: Junior Software Developer
+        #   organisation: Eutelia
+        #   location: Milan, Italy
+        #   from: Nov. 2006
+        #   to: Jun. 2007
+        #   details:
+        #       - Worked with a team developing a social network for the italian
+        #         portal leonardo.it
+        #       - Helped another Junior developer to get up to speed with the project.
+        #       - Created a log system to simplify the development process with
+        #         detailed error messages.
+        #       - Profiled and optimized the application using xdebug.
+        #       - Wrote the deployment scripts for the production environment with a
+        #         backup of the previous release.
+        #       - Developed a Python script to synchronize through the Spread Toolkit
+        #         the user credentials with partner websites to implement a
+        #         rudimentary Single Sign-On.
+        #   technology_used:
+        #     tools:
+        #         - PHP
+        #         - Zend Framework
+        #         - Spread Toolkit
+        #         - xdebug
+        #         - MySQL
   other_projects:
     items:
       - headline: Open Source contributions
