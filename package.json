@@ -1,0 +1,15 @@
+{
+  "name": "cv",
+  "version": "1.0.0",
+  "description": "Stéphane Bisinger's CV",
+  "main": "index.js",
+  "repository": "https://www.github.com/Kjir/cv",
+  "author": "Stéphane Bisinger <stephane.bisinger@renuo.ch>",
+  "license": "MIT",
+  "dependencies": {
+    "resume-cli": "^0.4.19"
+  },
+  "scripts": {
+    "resume": "node_modules/.bin/resume"
+  }
+}

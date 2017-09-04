@@ -1,18 +1,18 @@
 ##Stéphane Bisinger
-[http://www.sbisinger.net](http://www.sbisinger.net) `stephane.bisinger@gmail.com` `+39 349 84 96 517`
+[https://www.sbisinger.ch](https://www.sbisinger.ch) `stephane.bisinger@protonmail.com` `+41 79 635 28 61`
 
-Python - Angular - Git - Vim
+Python - Ruby on Rails - WebPerf
 
 ### Qualifications summary
-* All rounder when it comes to programming languages, able to fill in different positions.
-* Software quality and task automation make me a happy programmer.
-* I love using and contributing to Open Source software.
+* Extensive experience in many programming languages and frameworks.
+* Passionate about performance optimization and code quality.
+* Open Source Enthusiast
 
 
 ### Technical Skills
-* **Programming Languages**: `Python` `Javascript` `C` `Ruby` `Java` `PHP` 
-* **Web Frameworks**: `Angular` `Zend Framework` `Laravel` 
-* **Databases**: `MySQL` `PostgreSQL` 
+* **Programming Languages**: `Python` `Ruby` `Javascript` `Elixir` `Elm` `C` `...and many others!` 
+* **Web Frameworks**: `Rails` `Angular` `React` `Phoenix` `Elm` 
+* **Databases**: `PostgreSQL` `MySQL` 
 
 ### Education
  Degree | Major | Institution | Graduation Year
@@ -21,7 +21,14 @@ Bachelor of Information Technology | Computer Science | Università di Bologna, 
 
 
 ### Professional Experience
-* Software Engineer, Vendini, Gualdo Tadino, Italy (Jul. 2015 – Current)
+* Full Stack Software Developer, Renuo AG, Wallisellen, ZH, Switzerland (Nov. 2016 – Current)
+    - Workend on many customer projects using mainly Ruby on Rails and Angular.
+    - Took the lead in the Systems Operations working group.
+    - Talks and other training events for interns.
+    - Transformed the Kinova website to a mobile-first approach.
+    - Analysed the web performance of the main projects.
+    - Technologies got to work on: `Ruby on Rails` `Angular 2` `Webpack` `React` `Phoenix` 
+* Software Engineer, Vendini, Gualdo Tadino, Italy (Jul. 2015 – Sep. 2016)
     - Rewrote from scratch the old patron manager using AngularJS and a REST API.
     - Helped an intern, later hired by the company, to learn the tools and develop his potential as a software engineer.
     - Integrated seamlessly the Angular application in the legacy Zend application sharing authentication between the API and the legacy PHP application.

@@ -1,0 +1,153 @@
+{
+  "basics": {
+    "name": "Stéphane Bisinger",
+    "label": "Software Developer",
+    "picture": "https://www.sbisinger.ch/images/profile.png",
+    "email": "stephane.bisinger@protonmail.com",
+    "website": "https://www.sbisinger.ch",
+    "phone": "+41 (0)79 635 2861",
+    "summary": "",
+    "location": {
+      "city": "Zurich",
+      "countryCode": "Switzerland",
+      "postalCode": "8050"
+    },
+    "profiles": [
+      {
+        "network": "Github",
+        "username": "Kjir",
+        "url": "https://github.com/Kjir"
+      },
+      {
+        "network": "Stack Overflow",
+        "username": "Kjir",
+        "url": "https://stackoverflow.com/story/stebis"
+      },
+      {
+        "network": "Twitter",
+        "username": "SteBjoerne",
+        "url": "https://twitter.com/SteBjoerne"
+      }
+    ]
+  },
+  "work": [
+    {
+      "company": "Renuo AG",
+      "position": "Full Stack Developer",
+      "website": "https://www.renuo.ch",
+      "startDate": "2016-11-01",
+      "summary": "Renuo is a web agency specialized in Ruby on Rails and Angular. Among my duties and accomplishments are:",
+      "highlights": [
+        "The development of a Ruby on Rails and Angular 2 single page application for a big insurance company.",
+        "I am in charge of all the servers, I cleaned them up and promoted a shift towards a serverless architecture.",
+        "I train and help interns and junior developers through pair programming, live coding and presentations.",
+        "I deepen my knowledge of functional programming and other technologies: React + Redux, Elixir, Elm, etc."
+      ]
+    },
+    {
+      "company": "Istituto di Radioastronomia di Medicina",
+      "position": "C++ Developer",
+      "website": "http://www.med.ira.inaf.it/",
+      "startDate": "2009-05-01",
+      "endDate": "2010-06-01",
+      "summary": "As part of my studies I undertook an internship, and later wrote my thesis, at the Institute of Radioastronomy, writing a software spectrum analyzer. The main highlights were:",
+      "highlights": [
+        "The development of a spectrum analyzer using the Intel IPP C++ library's implementation of the Fast Fourier Transform.",
+        "Created a modular structure to allow the addition of filters and other transformations.",
+        "Programmed an UDP interface to receive the raw signals from the radio telescopes."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "Università di Bologna",
+      "area": "Information Technology",
+      "studyType": "Bachelor",
+      "startDate": "2003-09-01",
+      "endDate": "2010-10-01"
+    }
+  ],
+  "skills": [
+    {
+      "name": "Backend Development",
+      "level": "Master",
+      "keywords": [
+        "Python",
+        "Ruby on Rails",
+        "Elixir",
+        "PostgreSQL",
+        "MySQL"
+      ]
+    },
+    {
+      "name": "General Purpose Development",
+      "level": "Advanced",
+      "keywords": [
+        "C/C++",
+        "Go",
+        "Java"
+      ]
+    },
+    {
+      "name": "Systems Administration",
+      "level": "Advanced",
+      "keywords": [
+        "Linux",
+        "Apache",
+        "nginx",
+        "PostgreSQL",
+        "MySQL"
+      ]
+    },
+    {
+      "name": "Frontend Development",
+      "level": "Master",
+      "keywords": [
+        "Javascript",
+        "Angular",
+        "React",
+        "HTML 5",
+        "CSS 3"
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "language": "Italian",
+      "fluency": "Native speaker"
+    },
+    {
+      "language": "French",
+      "fluency": "Native speaker"
+    },
+    {
+      "language": "English",
+      "fluency": "Very fluent"
+    },
+    {
+      "language": "German",
+      "fluency": "Around B1 level"
+    }
+  ],
+  "interests": [
+    {
+      "name": "Traveling"
+    },
+    {
+      "name": "Chess"
+    },
+    {
+      "name": "Sports",
+      "keywords": [
+        "Swimming",
+        "Kung Fu"
+      ]
+    }
+  ],
+  "references": [
+    {
+      "name": "Erlich Bachman",
+      "reference": "It is my pleasure to recommend Richard, his performance working as a consultant for Main St. Company proved that he will be a valuable addition to any company."
+    }
+  ]
+}

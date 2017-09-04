@@ -1,0 +1,109 @@
+---
+# Create CV from yaml file. See https://github.com/prat0318/json_resume
+settings:
+  icons: true
+firstname: Stéphane
+familyname: Bisinger
+github_id: Kjir
+bio_data:
+  email: "stephane.bisinger@renuo.ch"
+  website: https://www.sbisinger.ch
+  stars:
+      - Ruby on Rails
+      - Angular
+      - React
+      - Vim
+  skills:
+    details:
+        - type: Programming Languages
+          items:
+              - Ruby
+              - Python
+              - Javascript
+              - Elixir
+              - Elm
+              - Typescript
+              - C
+        - type: Web Frameworks
+          items:
+              - Rails
+              - Angular
+              - React
+              - Phoenix
+              - Laravel
+  education:
+    show_gpa: false
+    schools:
+        - degree: Bachelor of Information Technology
+          major: Computer Science
+          institution: Università di Bologna, Cesena (IT)
+          graduation_year: 2010
+          gpa: 98/110
+  experience:
+    items:
+        - title: Full Stack Developer
+          organisation: Renuo AG
+          location: Wallisellen, ZH, Switzerland
+          from: Nov. 2016
+          to: Current
+          technology_used:
+            tools:
+                - Ruby on Rails
+                - Angular 2
+                - React/Redux
+                - Phoenix Framework
+                - Elm
+        - title: Software Engineer
+          organisation: Vendini
+          location: Gualdo Tadino, Italy
+          from: Jul. 2015
+          to: Sep. 2016
+          technology_used:
+            tools:
+                - AngularJS
+                - Zend Framework
+                - Laravel
+                - Docker
+        - title: Software Engineer
+          organisation: Teamsystem Spa
+          location: Fabriano, Italy
+          from: May. 2013
+          to: Jun. 2015
+          technology_used:
+            tools:
+                - Python
+                - PostgreSQL
+                - WSME
+                - Ruby
+        - title: J2EE Developer
+          organisation: Netprophecy Ltd.
+          location: London, UK
+          from: Mar. 2012
+          to: Jul. 2012
+          technology_used:
+            tools:
+                - Java
+                - ZK
+                - jBoss
+        - title: Junior Software Developer
+          organisation: Eutelia
+          location: Milan, Italy
+          from: Nov. 2006
+          to: Jun. 2007
+          technology_used:
+            tools:
+                - PHP
+                - Zend Framework
+                - MySQL
+  other_projects:
+    items:
+        - headline: Open Source contributions
+          points:
+              - vim-test https://github.com/janko-m/vim-test
+              - WSME project https://pythonhosted.org/WSME/
+              - xhtml2pdf https://github.com/xhtml2pdf/xhtml2pdf
+              - aMSN2 project https://github.com/amsn/amsn2
+              - centerIM project http://repo.or.cz/centerim.git
+        - headline: Full Resume
+          points:
+              - StackOverflow CV http://stackoverflow.com/cv/stebis
