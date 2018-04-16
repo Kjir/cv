@@ -3,15 +3,15 @@ require 'fileutils'
 task default: %w(markdown pdf tech tech_pdf)
 
 desc "Generate PDF version of CV"
-task pdf: %w(cv.pdf)
-file 'cv.pdf' => 'sb_cv.yaml' do
+task pdf: %w(stephane_bisinger_cv.pdf)
+file 'stephane_bisinger_cv.pdf' => 'sb_cv.yaml' do
   sh 'json_resume convert --out=html_pdf sb_cv.yaml'
-  FileUtils.mv 'resume.pdf', 'cv.pdf'
+  FileUtils.mv 'resume.pdf', 'stephane_bisinger_cv.pdf'
   @current_date = Time.now.strftime("%F")
-  FileUtils.cp 'cv.pdf', "versions/#{@current_date}_cv.pdf"
+  FileUtils.cp 'stephane_bisinger_cv.pdf', "versions/#{@current_date}_cv.pdf"
 end
 
-desc "Generate PDF version of CV"
+desc "Generate Markdown version of CV"
 task md: %w(markdown)
 task markdown: %w(README.md)
 file 'README.md' => 'sb_cv.yaml' do
@@ -38,7 +38,7 @@ file 'technology.html' => 'technology_cv.yaml' do
   @current_date = Time.now.strftime("%F")
 end
 
-desc "Generate PDF version of Technology CV"
+desc "Generate Markdown version of Technology CV"
 task tech: %w(tech_md)
 task tech_md: %w(technology.md)
 file 'technology.md' => 'technology_cv.yaml' do
