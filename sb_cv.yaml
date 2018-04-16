@@ -51,13 +51,35 @@ bio_data:
           gpa: 98/110
   experience:
     items:
+        - title: Senior Software Engineer
+          organisation: Siroop AG
+          location: Zürich, ZH, Switzerland
+          from: Feb. 2018
+          to: Current
+          details:
+            - Rewrote Lambdas to process category informations.
+            - Refactored a Flask API to be able to switch between DynamoDB and Elasticsearch as source for data.
+            - Wrote an alternative consumer for product data reading from RabbitMQ.
+            - Took a leading role in the analysis, planning and implementation of the promotion concept.
+            - Identified some of the major bottlenecks in a Django application and provided possible viable solutions.
+          technology_used:
+            tools:
+              - Python
+              - Node.js
+              - DynamoDB
+              - AWS Lambda
+              - Ramda.js
+              - Flask
+              - Django
+              - RabbitMQ
+              - Terraform
         - title: Full Stack Software Developer
           organisation: Renuo AG
           location: Wallisellen, ZH, Switzerland
           from: Nov. 2016
-          to: Current
+          to: Feb. 2018
           details:
-            - Workend on many customer projects using mainly Ruby on Rails and Angular.
+            - Worked on many customer projects using mainly Ruby on Rails and Angular.
             - Took the lead in the Systems Operations working group.
             - Talks and other training events for interns.
             - Transformed the Kinova website to a mobile-first approach.

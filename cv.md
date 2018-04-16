@@ -4,25 +4,34 @@
 Python - Ruby on Rails - WebPerf
 
 ### Qualifications summary
-* Extensive experience in many programming languages and frameworks.
+* Extensive experience in many programming languages.
 * Passionate about performance optimization and code quality.
-* Open Source Enthusiast
+* Hooked on Functional Programming.
+* Open Source Enthusiast.
+* Interests in Physics and Chess (although amateur at both).
 
 
 ### Technical Skills
-* **Programming Languages**: `Python` `Ruby` `Javascript` `Elixir` `Elm` `C` `...and many others!` 
-* **Web Frameworks**: `Rails` `Angular` `React` `Phoenix` `Elm` 
+* **Programming Languages**: `Python` `Ruby` `Javascript` `C/C++` `Elixir` `Elm` `...and many others!` 
+* **Web Frameworks**: `Rails` `Angular` `React` `Phoenix` 
 * **Databases**: `PostgreSQL` `MySQL` 
 
 ### Education
- Degree | Major | Institution | Graduation Year
-:--:|:--:|:--:|:--:
-Bachelor of Information Technology | Computer Science | Università di Bologna, Cesena (IT) | 2010
+ Degree | Major | Institution | Graduation Year | GPA
+:--:|:--:|:--:|:--:|:--:
+Bachelor of Information Technology | Computer Science | Università di Bologna, Cesena (IT) | 2010 | 98/110
 
 
 ### Professional Experience
-* Full Stack Software Developer, Renuo AG, Wallisellen, ZH, Switzerland (Nov. 2016 – Current)
-    - Workend on many customer projects using mainly Ruby on Rails and Angular.
+* Senior Software Engineer, Siroop AG, Zürich, ZH, Switzerland (Feb. 2018 – Current)
+    - Rewrote Lambdas to process category informations.
+    - Refactored a Flask API to be able to switch between DynamoDB and Elasticsearch as source for data.
+    - Wrote an alternative consumer for product data reading from RabbitMQ.
+    - Took a leading role in the analysis, planning and implementation of the promotion concept.
+    - Identified some of the major bottlenecks in a Django application and provided possible viable solutions.
+    - Technologies got to work on: `Python` `Node.js` `DynamoDB` `AWS Lambda` `Ramda.js` `Flask` `Django` `RabbitMQ` `Terraform` 
+* Full Stack Software Developer, Renuo AG, Wallisellen, ZH, Switzerland (Nov. 2016 – Feb. 2018)
+    - Worked on many customer projects using mainly Ruby on Rails and Angular.
     - Took the lead in the Systems Operations working group.
     - Talks and other training events for interns.
     - Transformed the Kinova website to a mobile-first approach.
@@ -44,24 +53,24 @@ Bachelor of Information Technology | Computer Science | Università di Bologna, 
     - Wrote a tool to manage an international leather goods expo. The project was developed with the ZK Framework using the MVVM pattern.
     - Evaluated the possibility of migrating Java applications to Rails through jRuby.
     - Technologies got to work on: `Java` `ZK` `jBoss` 
-* Junior Software Developer, Eutelia, Milan, Italy (Nov. 2006 – Jun. 2007)
-    - Worked with a team developing a social network for the italian portal leonardo.it
-    - Helped another Junior developer to get up to speed with the project.
-    - Created a log system to simplify the development process with detailed error messages.
-    - Profiled and optimized the application using xdebug.
-    - Wrote the deployment scripts for the production environment with a backup of the previous release.
-    - Developed a Python script to synchronize through the Spread Toolkit the user credentials with partner websites to implement a rudimentary Single Sign-On.
-    - Technologies got to work on: `PHP` `Zend Framework` `Spread Toolkit` `xdebug` `MySQL` 
+* C++ Intern, Istituto di Radioastronomia, Medicina (BO), Italy (May. 2009 – Jun. 2010)
+    - Worked as an intern and for my thesis on a software spectrogram.
+    - Used the Intel IPP to transfom time signals in their power spectrum.
+    - Allowed the software to be extended with additional filters.
+    - Extended the program to accept input through an UDP socket.
+    - Added multithreading support to enhance performances.
+    - Technologies got to work on: `C++` `Boost` `Intel IPP` `Autotools` `Python` 
 
 ### Other Personal Projects
 * Open Source contributions
+    - El Plan https://github.com/renuo/elplan
     - vim-test https://github.com/janko-m/vim-test
     - WSME project https://pythonhosted.org/WSME/
     - xhtml2pdf https://github.com/xhtml2pdf/xhtml2pdf
     - aMSN2 project https://github.com/amsn/amsn2
     - centerIM project http://repo.or.cz/centerim.git
 * Full Resume
-    - StackOverflow CV http://stackoverflow.com/cv/stebis
+    - StackOverflow CV https://stackoverflow.com/story/stebis
 
 
 
