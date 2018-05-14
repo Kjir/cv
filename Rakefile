@@ -5,7 +5,7 @@ task default: %w(markdown pdf tech tech_pdf)
 desc "Generate PDF version of CV"
 task pdf: %w(stephane_bisinger_cv.pdf)
 file 'stephane_bisinger_cv.pdf' => 'sb_cv.yaml' do
-  sh 'json_resume convert --out=html_pdf sb_cv.yaml'
+  sh 'json_resume convert --out=html_pdf --template=templates/default_html.mustache sb_cv.yaml'
   FileUtils.mv 'resume.pdf', 'stephane_bisinger_cv.pdf'
   @current_date = Time.now.strftime("%F")
   FileUtils.cp 'stephane_bisinger_cv.pdf', "versions/#{@current_date}_cv.pdf"
@@ -15,7 +15,7 @@ desc "Generate Markdown version of CV"
 task md: %w(markdown)
 task markdown: %w(README.md)
 file 'README.md' => 'sb_cv.yaml' do
-  sh 'json_resume convert --out=md sb_cv.yaml'
+  sh 'json_resume convert --out=md --template=templates/default_md.mustache sb_cv.yaml'
   FileUtils.mv 'resume.md', 'cv.md'
   FileUtils.cp 'cv.md', 'README.md'
   @current_date = Time.now.strftime("%F")

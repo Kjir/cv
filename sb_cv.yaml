@@ -6,30 +6,35 @@ firstname: Stéphane
 familyname: Bisinger
 github_id: Kjir
 bio_data:
-  email: "stephane.bisinger@protonmail.com"
+  email: "stephane@sbisinger.ch"
   phone: "+41 79 635 28 61"
   website: https://www.sbisinger.ch
   stars:
-      - Python
       - Ruby on Rails
       - WebPerf
+      - Microservices
   summary:
     points:
       - Extensive experience in many programming languages.
+      - Supporter of applications structured around people and teams.
       - Passionate about performance optimization and code quality.
       - Hooked on Functional Programming.
-      - Open Source Enthusiast.
       - Interests in Physics and Chess (although amateur at both).
   skills:
     details:
+        - type: Agile & More
+          items:
+              - SCRUM & Kanban
+              - TDD/BDD
+              - Pair Programming
+              - Microservices
+              - AWS
+              - Heroku
         - type: Programming Languages
           items:
               - Python
               - Ruby
               - Javascript
-              - C/C++
-              - Elixir
-              - Elm
               - ...and many others!
         - type: Web Frameworks
           items:
@@ -37,18 +42,12 @@ bio_data:
             - Angular
             - React
             - Phoenix
+            - Flask
         - type: Databases
           items:
               - PostgreSQL
               - MySQL
-  education:
-    show_gpa: true
-    schools:
-        - degree: Bachelor of Information Technology
-          major: Computer Science
-          institution: Università di Bologna, Cesena (IT)
-          graduation_year: 2010
-          gpa: 98/110
+              - DynamoDB
   experience:
     items:
         - title: Senior Software Engineer
@@ -57,18 +56,17 @@ bio_data:
           from: Feb. 2018
           to: Current
           details:
+            - Worked on the streaming data pipeline for product and price updates from merchants.
             - Rewrote Lambdas to process category informations.
             - Refactored a Flask API to be able to switch between DynamoDB and Elasticsearch as source for data.
             - Wrote an alternative consumer for product data reading from RabbitMQ.
             - Took a leading role in the analysis, planning and implementation of the promotion concept.
-            - Identified some of the major bottlenecks in a Django application and provided possible viable solutions.
           technology_used:
             tools:
               - Python
               - Node.js
               - DynamoDB
               - AWS Lambda
-              - Ramda.js
               - Flask
               - Django
               - RabbitMQ
@@ -81,13 +79,14 @@ bio_data:
           details:
             - Worked on many customer projects using mainly Ruby on Rails and Angular.
             - Took the lead in the Systems Operations working group.
-            - Talks and other training events for interns.
+            - Tech Talks and other training events for interns.
             - Transformed the Kinova website to a mobile-first approach.
             - Analysed the web performance of the main projects.
           technology_used:
             tools:
               - Ruby on Rails
               - Angular 2
+              - Heroku
               - Webpack
               - React
               - Phoenix
@@ -145,10 +144,7 @@ bio_data:
           from: Mar. 2012
           to: Jul. 2012
           details:
-              - Wrote a tool to manage an international leather goods expo. The project
-                was developed with the ZK Framework using the MVVM pattern.
-              - Evaluated the possibility of migrating Java applications to Rails
-                through jRuby.
+              - Wrote a management tool for an international leather goods expo.
           technology_used:
             tools:
                 - Java
@@ -160,11 +156,7 @@ bio_data:
           from: May. 2009
           to: Jun. 2010
           details:
-            - Worked as an intern and for my thesis on a software spectrogram.
-            - Used the Intel IPP to transfom time signals in their power spectrum.
-            - Allowed the software to be extended with additional filters.
-            - Extended the program to accept input through an UDP socket.
-            - Added multithreading support to enhance performances.
+            - Internship for my thesis on a software spectrogram with the Intel IPP libraries.
           technology_used:
             tools:
                 - C++
@@ -172,11 +164,18 @@ bio_data:
                 - Intel IPP
                 - Autotools
                 - Python
-        # - title: Junior Software Developer
-        #   organisation: Eutelia
-        #   location: Milan, Italy
-        #   from: Nov. 2006
-        #   to: Jun. 2007
+                - Networking
+                - Threading
+        - title: Team Lead
+          organisation: Artetempo
+          location: Milan, Italy
+          from: Sep. 2007
+          to: Dec. 2007
+        - title: Junior Software Developer
+          organisation: Eutelia
+          location: Milan, Italy
+          from: Nov. 2006
+          to: Jun. 2007
         #   details:
         #       - Worked with a team developing a social network for the italian
         #         portal leonardo.it
@@ -189,13 +188,21 @@ bio_data:
         #       - Developed a Python script to synchronize through the Spread Toolkit
         #         the user credentials with partner websites to implement a
         #         rudimentary Single Sign-On.
-        #   technology_used:
-        #     tools:
-        #         - PHP
-        #         - Zend Framework
-        #         - Spread Toolkit
-        #         - xdebug
-        #         - MySQL
+          technology_used:
+            tools:
+                - PHP
+                - Zend Framework
+                - Spread Toolkit
+                - xdebug
+                - MySQL
+  education:
+    show_gpa: true
+    schools:
+        - degree: Bachelor of Information Technology
+          major: Computer Science
+          institution: Università di Bologna, Cesena (IT)
+          graduation_year: 2010
+          gpa: 98/110
   other_projects:
     items:
       - headline: Open Source contributions

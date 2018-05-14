@@ -1,42 +1,38 @@
 ##Stéphane Bisinger
-[https://www.sbisinger.ch](https://www.sbisinger.ch) `stephane.bisinger@protonmail.com` `+41 79 635 28 61`
+[https://www.sbisinger.ch](https://www.sbisinger.ch) `stephane@sbisinger.ch` `+41 79 635 28 61`
 
-Python - Ruby on Rails - WebPerf
+Ruby on Rails - WebPerf - Microservices
 
 ### Qualifications summary
 * Extensive experience in many programming languages.
+* Supporter of applications structured around people and teams.
 * Passionate about performance optimization and code quality.
 * Hooked on Functional Programming.
-* Open Source Enthusiast.
 * Interests in Physics and Chess (although amateur at both).
 
 
 ### Technical Skills
-* **Programming Languages**: `Python` `Ruby` `Javascript` `C/C++` `Elixir` `Elm` `...and many others!` 
-* **Web Frameworks**: `Rails` `Angular` `React` `Phoenix` 
-* **Databases**: `PostgreSQL` `MySQL` 
-
-### Education
- Degree | Major | Institution | Graduation Year | GPA
-:--:|:--:|:--:|:--:|:--:
-Bachelor of Information Technology | Computer Science | Università di Bologna, Cesena (IT) | 2010 | 98/110
+* **Agile &amp; More**: `SCRUM &amp; Kanban` `TDD/BDD` `Pair Programming` `Microservices` `AWS` `Heroku` 
+* **Programming Languages**: `Python` `Ruby` `Javascript` `...and many others!` 
+* **Web Frameworks**: `Rails` `Angular` `React` `Phoenix` `Flask` 
+* **Databases**: `PostgreSQL` `MySQL` `DynamoDB` 
 
 
 ### Professional Experience
 * Senior Software Engineer, Siroop AG, Zürich, ZH, Switzerland (Feb. 2018 – Current)
+    - Worked on the streaming data pipeline for product and price updates from merchants.
     - Rewrote Lambdas to process category informations.
     - Refactored a Flask API to be able to switch between DynamoDB and Elasticsearch as source for data.
     - Wrote an alternative consumer for product data reading from RabbitMQ.
     - Took a leading role in the analysis, planning and implementation of the promotion concept.
-    - Identified some of the major bottlenecks in a Django application and provided possible viable solutions.
-    - Technologies got to work on: `Python` `Node.js` `DynamoDB` `AWS Lambda` `Ramda.js` `Flask` `Django` `RabbitMQ` `Terraform` 
+    - Technologies got to work on: `Python` `Node.js` `DynamoDB` `AWS Lambda` `Flask` `Django` `RabbitMQ` `Terraform` 
 * Full Stack Software Developer, Renuo AG, Wallisellen, ZH, Switzerland (Nov. 2016 – Feb. 2018)
     - Worked on many customer projects using mainly Ruby on Rails and Angular.
     - Took the lead in the Systems Operations working group.
-    - Talks and other training events for interns.
+    - Tech Talks and other training events for interns.
     - Transformed the Kinova website to a mobile-first approach.
     - Analysed the web performance of the main projects.
-    - Technologies got to work on: `Ruby on Rails` `Angular 2` `Webpack` `React` `Phoenix` 
+    - Technologies got to work on: `Ruby on Rails` `Angular 2` `Heroku` `Webpack` `React` `Phoenix` 
 * Software Engineer, Vendini, Gualdo Tadino, Italy (Jul. 2015 – Sep. 2016)
     - Rewrote from scratch the old patron manager using AngularJS and a REST API.
     - Helped an intern, later hired by the company, to learn the tools and develop his potential as a software engineer.
@@ -50,16 +46,19 @@ Bachelor of Information Technology | Computer Science | Università di Bologna, 
     - Automated the software installation and some end-to-end tests through the watir-webdriver Ruby gem.
     - Technologies got to work on: `Python` `PostgreSQL` `WSME` `Ruby` 
 * J2EE Developer, Netprophecy Ltd., London, UK (Mar. 2012 – Jul. 2012)
-    - Wrote a tool to manage an international leather goods expo. The project was developed with the ZK Framework using the MVVM pattern.
-    - Evaluated the possibility of migrating Java applications to Rails through jRuby.
+    - Wrote a management tool for an international leather goods expo.
     - Technologies got to work on: `Java` `ZK` `jBoss` 
 * C++ Intern, Istituto di Radioastronomia, Medicina (BO), Italy (May. 2009 – Jun. 2010)
-    - Worked as an intern and for my thesis on a software spectrogram.
-    - Used the Intel IPP to transfom time signals in their power spectrum.
-    - Allowed the software to be extended with additional filters.
-    - Extended the program to accept input through an UDP socket.
-    - Added multithreading support to enhance performances.
-    - Technologies got to work on: `C++` `Boost` `Intel IPP` `Autotools` `Python` 
+    - Internship for my thesis on a software spectrogram with the Intel IPP libraries.
+    - Technologies got to work on: `C++` `Boost` `Intel IPP` `Autotools` `Python` `Networking` `Threading` 
+* Team Lead, Artetempo, Milan, Italy (Sep. 2007 – Dec. 2007)
+* Junior Software Developer, Eutelia, Milan, Italy (Nov. 2006 – Jun. 2007)
+    - Technologies got to work on: `PHP` `Zend Framework` `Spread Toolkit` `xdebug` `MySQL` 
+
+### Education
+ Degree | Major | Institution | Graduation Year | GPA
+:--:|:--:|:--:|:--:|:--:
+Bachelor of Information Technology | Computer Science | Università di Bologna, Cesena (IT) | 2010 | 98/110
 
 ### Other Personal Projects
 * Open Source contributions
