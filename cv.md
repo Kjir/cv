@@ -52,6 +52,7 @@ Ruby on Rails - WebPerf - Microservices
     - Internship for my thesis on a software spectrogram with the Intel IPP libraries.
     - Technologies got to work on: `C++` `Boost` `Intel IPP` `Autotools` `Python` `Networking` `Threading` 
 * Team Lead, Artetempo, Milan, Italy (Sep. 2007 – Dec. 2007)
+    - Technologies got to work on: `J2EE` `Stripes` `Hibernate` `Maven` 
 * Junior Software Developer, Eutelia, Milan, Italy (Nov. 2006 – Jun. 2007)
     - Technologies got to work on: `PHP` `Zend Framework` `Spread Toolkit` `xdebug` `MySQL` 
 

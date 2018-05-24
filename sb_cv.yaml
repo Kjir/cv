@@ -171,6 +171,12 @@ bio_data:
           location: Milan, Italy
           from: Sep. 2007
           to: Dec. 2007
+          technology_used:
+            tools:
+              - J2EE
+              - Stripes
+              - Hibernate
+              - Maven
         - title: Junior Software Developer
           organisation: Eutelia
           location: Milan, Italy
