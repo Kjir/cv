@@ -1,25 +1,34 @@
 ##Stéphane Bisinger
 [https://www.sbisinger.ch](https://www.sbisinger.ch) `stephane@sbisinger.ch` `+41 79 635 28 61`
 
-Ruby on Rails - WebPerf - Microservices
+Serverless Architecture - eXtreme Programming - TDD
 
 ### Qualifications summary
-* Extensive experience in many programming languages.
-* Supporter of applications structured around people and teams.
-* Passionate about performance optimization and code quality.
-* Hooked on Functional Programming.
-* Interests in Physics and Chess (although amateur at both).
+* Close to 20 years of experience in Web development.
+* Enjoys growing people and teams to deliver high quality code.
+* Varied background with a wide range of experiences.
+* Experienced in Serverless architectures.
 
 
 ### Technical Skills
-* **Agile &amp; More**: `SCRUM &amp; Kanban` `TDD/BDD` `Pair Programming` `Microservices` `AWS` `Heroku` 
+* **Technical practices**: `Pair Programming` `TDD/BDD` `Continuous Delivery` `Trunk-based Development` 
 * **Programming Languages**: `Python` `Ruby` `Javascript` `...and many others!` 
-* **Web Frameworks**: `Rails` `Angular` `React` `Phoenix` `Flask` 
-* **Databases**: `PostgreSQL` `MySQL` `DynamoDB` 
+* **Web Frameworks**: `Rails` `Vue.js` `Angular` `Flask` 
+* **Databases**: `DynamoDB` `PostgreSQL` `MySQL` 
 
 
 ### Professional Experience
-* Senior Software Engineer, Siroop AG, Zürich, ZH, Switzerland (Feb. 2018 – Current)
+* Senior Software Engineer, Homegate AG, Zürich, ZH, Switzerland (Aug. 2018 – Current)
+    - Worked on the reengineering of the Product Display Page and Search Alerts.
+    - Introduced new ideas into the teams to improve the effeciveness of our work, such as Pair Programming, Continuous Delivery and Trunk-Based Development
+    - Improved observability of the applications by introducing tools like Datadog and Sentry
+    - Worked on automation of all tasks, including production deployments and quality checks.
+    - Solved complex problems like Server-Side Rendering and Code Splitting.
+    - Helped the team split tasks in small deliverables with fast iterations.
+    - Took care of leading the technical decisions in collaboration the rest of the team.
+    - Held a course on Webpack for the TX Academy.
+    - Technologies got to work on: `AWS` `Node.js` `Vue.js` `Typescript` `DynamoDB` `Datadog` 
+* Senior Software Engineer, Siroop AG, Zürich, ZH, Switzerland (Feb. 2018 – Jul. 2018)
     - Worked on the streaming data pipeline for product and price updates from merchants.
     - Rewrote Lambdas to process category informations.
     - Refactored a Flask API to be able to switch between DynamoDB and Elasticsearch as source for data.
@@ -37,7 +46,7 @@ Ruby on Rails - WebPerf - Microservices
     - Rewrote from scratch the old patron manager using AngularJS and a REST API.
     - Helped an intern, later hired by the company, to learn the tools and develop his potential as a software engineer.
     - Integrated seamlessly the Angular application in the legacy Zend application sharing authentication between the API and the legacy PHP application.
-    - Worked using Agile methodologies following the SCRUM approach.
+    - Worked using Agile methodologies following the Scrum approach.
     - Technologies got to work on: `AngularJS` `Zend Framework` `Laravel` `Docker` `JIRA with Agile` 
 * Software Engineer, Teamsystem Spa, Fabriano, Italy (May. 2013 – Jun. 2015)
     - Introduced SOAP and REST/json webservices on the application through WSME, contributing patches to the OpenStack project when needed.
@@ -46,15 +55,9 @@ Ruby on Rails - WebPerf - Microservices
     - Automated the software installation and some end-to-end tests through the watir-webdriver Ruby gem.
     - Technologies got to work on: `Python` `PostgreSQL` `WSME` `Ruby` 
 * J2EE Developer, Netprophecy Ltd., London, UK (Mar. 2012 – Jul. 2012)
-    - Wrote a management tool for an international leather goods expo.
-    - Technologies got to work on: `Java` `ZK` `jBoss` 
 * C++ Intern, Istituto di Radioastronomia, Medicina (BO), Italy (May. 2009 – Jun. 2010)
-    - Internship for my thesis on a software spectrogram with the Intel IPP libraries.
-    - Technologies got to work on: `C++` `Boost` `Intel IPP` `Autotools` `Python` `Networking` `Threading` 
 * Team Lead, Artetempo, Milan, Italy (Sep. 2007 – Dec. 2007)
-    - Technologies got to work on: `J2EE` `Stripes` `Hibernate` `Maven` 
 * Junior Software Developer, Eutelia, Milan, Italy (Nov. 2006 – Jun. 2007)
-    - Technologies got to work on: `PHP` `Zend Framework` `Spread Toolkit` `xdebug` `MySQL` 
 
 ### Education
  Degree | Major | Institution | Graduation Year | GPA

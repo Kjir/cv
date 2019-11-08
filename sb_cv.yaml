@@ -10,26 +10,23 @@ bio_data:
   phone: "+41 79 635 28 61"
   website: https://www.sbisinger.ch
   stars:
-      - Ruby on Rails
-      - WebPerf
-      - Microservices
+      - Serverless Architecture
+      - eXtreme Programming
+      - TDD
   summary:
     points:
-      - Extensive experience in many programming languages.
-      - Supporter of applications structured around people and teams.
-      - Passionate about performance optimization and code quality.
-      - Hooked on Functional Programming.
-      - Interests in Physics and Chess (although amateur at both).
+      - Close to 20 years of experience in Web development.
+      - Enjoys growing people and teams to deliver high quality code.
+      - Varied background with a wide range of experiences.
+      - Experienced in Serverless architectures.
   skills:
     details:
-        - type: Agile & More
+        - type: Technical practices
           items:
-              - SCRUM & Kanban
-              - TDD/BDD
               - Pair Programming
-              - Microservices
-              - AWS
-              - Heroku
+              - TDD/BDD
+              - Continuous Delivery
+              - Trunk-based Development
         - type: Programming Languages
           items:
               - Python
@@ -39,22 +36,46 @@ bio_data:
         - type: Web Frameworks
           items:
             - Rails
+            - Vue.js
             - Angular
-            - React
-            - Phoenix
             - Flask
         - type: Databases
           items:
+              - DynamoDB
               - PostgreSQL
               - MySQL
-              - DynamoDB
   experience:
     items:
+        - title: Senior Software Engineer
+          organisation: Homegate AG
+          location: Zürich, ZH, Switzerland
+          from: Aug. 2018
+          to: Current
+          details:
+            - Worked on the reengineering of the Product Display Page and Search Alerts.
+            - Introduced new ideas into the teams to improve the effeciveness of
+              our work, such as Pair Programming, Continuous Delivery and
+              Trunk-Based Development
+            - Improved observability of the applications by introducing tools like Datadog and Sentry
+            - Worked on automation of all tasks, including production deployments and quality checks.
+            - Solved complex problems like Server-Side Rendering and Code Splitting.
+            - Helped the team split tasks in small deliverables with fast iterations.
+            - Took care of leading the technical decisions in collaboration the rest of the team.
+            - Held a course on Webpack for the TX Academy.
+          technology_used:
+            tools:
+              - AWS
+              - Node.js
+              - Vue.js
+              - Typescript
+              - DynamoDB
+              - Datadog
+
         - title: Senior Software Engineer
           organisation: Siroop AG
           location: Zürich, ZH, Switzerland
           from: Feb. 2018
-          to: Current
+          to: Jul. 2018
           details:
             - Worked on the streaming data pipeline for product and price updates from merchants.
             - Rewrote Lambdas to process category informations.
@@ -103,7 +124,7 @@ bio_data:
               - Integrated seamlessly the Angular application in the legacy Zend
                 application sharing authentication between the API and the legacy PHP
                 application.
-              - Worked using Agile methodologies following the SCRUM approach.
+              - Worked using Agile methodologies following the Scrum approach.
           technology_used:
             tools:
                 - AngularJS
@@ -143,40 +164,40 @@ bio_data:
           location: London, UK
           from: Mar. 2012
           to: Jul. 2012
-          details:
-              - Wrote a management tool for an international leather goods expo.
-          technology_used:
-            tools:
-                - Java
-                - ZK
-                - jBoss
+          # details:
+          #     - Wrote a management tool for an international leather goods expo.
+          # technology_used:
+          #   tools:
+          #       - Java
+          #       - ZK
+          #       - jBoss
         - title: C++ Intern
           organisation: Istituto di Radioastronomia
           location: Medicina (BO), Italy
           from: May. 2009
           to: Jun. 2010
-          details:
-            - Internship for my thesis on a software spectrogram with the Intel IPP libraries.
-          technology_used:
-            tools:
-                - C++
-                - Boost
-                - Intel IPP
-                - Autotools
-                - Python
-                - Networking
-                - Threading
+          # details:
+          #   - Internship for my thesis on a software spectrogram with the Intel IPP libraries.
+          # technology_used:
+          #   tools:
+          #       - C++
+          #       - Boost
+          #       - Intel IPP
+          #       - Autotools
+          #       - Python
+          #       - Networking
+          #       - Threading
         - title: Team Lead
           organisation: Artetempo
           location: Milan, Italy
           from: Sep. 2007
           to: Dec. 2007
-          technology_used:
-            tools:
-              - J2EE
-              - Stripes
-              - Hibernate
-              - Maven
+          # technology_used:
+          #   tools:
+          #     - J2EE
+          #     - Stripes
+          #     - Hibernate
+          #     - Maven
         - title: Junior Software Developer
           organisation: Eutelia
           location: Milan, Italy
@@ -194,13 +215,13 @@ bio_data:
         #       - Developed a Python script to synchronize through the Spread Toolkit
         #         the user credentials with partner websites to implement a
         #         rudimentary Single Sign-On.
-          technology_used:
-            tools:
-                - PHP
-                - Zend Framework
-                - Spread Toolkit
-                - xdebug
-                - MySQL
+          # technology_used:
+          #   tools:
+          #       - PHP
+          #       - Zend Framework
+          #       - Spread Toolkit
+          #       - xdebug
+          #       - MySQL
   education:
     show_gpa: true
     schools:
