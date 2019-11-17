@@ -53,14 +53,14 @@ bio_data:
           to: Current
           details:
             - Worked on the reengineering of the Product Display Page and Search Alerts.
-            - Introduced new ideas into the teams to improve the effeciveness of
+            - Introduced new ideas into the teams to improve the effectiveness of
               our work, such as Pair Programming, Continuous Delivery and
               Trunk-Based Development
             - Improved observability of the applications by introducing tools like Datadog and Sentry
             - Worked on automation of all tasks, including production deployments and quality checks.
-            - Solved complex problems like Server-Side Rendering and Code Splitting.
+            - Solved complex problems like Server-Side Rendering and Code Splitting in a serverless context.
             - Helped the team split tasks in small deliverables with fast iterations.
-            - Took care of leading the technical decisions in collaboration the rest of the team.
+            - Took care of leading the technical decisions in collaboration with the rest of the team.
             - Held a course on Webpack for the TX Academy.
           technology_used:
             tools:
@@ -78,7 +78,7 @@ bio_data:
           to: Jul. 2018
           details:
             - Worked on the streaming data pipeline for product and price updates from merchants.
-            - Rewrote Lambdas to process category informations.
+            - Rewrote Lambdas to process category information to simplify and support additional languages.
             - Refactored a Flask API to be able to switch between DynamoDB and Elasticsearch as source for data.
             - Wrote an alternative consumer for product data reading from RabbitMQ.
             - Took a leading role in the analysis, planning and implementation of the promotion concept.
@@ -102,7 +102,7 @@ bio_data:
             - Took the lead in the Systems Operations working group.
             - Tech Talks and other training events for interns.
             - Transformed the Kinova website to a mobile-first approach.
-            - Analysed the web performance of the main projects.
+            - Analyzed the web performance of the main projects.
           technology_used:
             tools:
               - Ruby on Rails
@@ -147,10 +147,10 @@ bio_data:
                 put the whole infrastructure to the test. Spotting the bottlenecks
                 and resolving the problems with the Python GIL were my best
                 accomplishments.
-              - Mantained existing Python code using a custom web framework.
+              - Maintained existing Python code using a custom web framework.
                 Refactoring and the introduction of some unit tests were the added
-                value put on top of normal development work. Also setup a local
-                Jenkins CI to run tests and verify the coverage.
+                value put on top of normal development work. Additionally setup
+                a local Jenkins CI to run tests and verify the coverage.
               - Automated the software installation and some end-to-end tests
                 through the watir-webdriver Ruby gem.
           technology_used:
