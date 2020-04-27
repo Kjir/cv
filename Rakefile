@@ -22,6 +22,15 @@ file 'README.md' => 'sb_cv.yaml' do
   FileUtils.cp 'cv.md', "versions/#{@current_date}_cv.md"
 end
 
+desc "Generate HTML version of CV"
+task html: %(stephane_bisinger_cv.html)
+file 'stephane_bisinger_cv.html' => 'sb_cv.yaml' do
+  sh 'json_resume convert --out=html --template=templates/default_html.mustache sb_cv.yaml'
+  FileUtils.mv 'resume.html', 'stephane_bisinger_cv.html'
+  @current_date = Time.now.strftime("%F")
+  FileUtils.cp 'stephane_bisinger_cv.html', "versions/#{@current_date}_cv.html"
+end
+
 desc "Generate PDF version of Technology CV"
 task tech_pdf: %w(technology_cv.pdf)
 file 'technology_cv.pdf' => 'technology_cv.yaml' do

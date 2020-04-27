@@ -1,5 +1,5 @@
 ##Stéphane Bisinger
-[https://www.sbisinger.ch](https://www.sbisinger.ch) `stephane@sbisinger.ch` `+41 79 635 28 61`
+[]()  
 
 Serverless Architecture - eXtreme Programming - TDD
 
@@ -18,7 +18,10 @@ Serverless Architecture - eXtreme Programming - TDD
 
 
 ### Professional Experience
-* Senior Software Engineer, Homegate AG, Zürich, ZH, Switzerland (Aug. 2018 – Current)
+* Software Crafter, 42talents GmbH, Zürich, ZH, Switzerland (Apr. 2020 – Current)
+    - Optimized the performance and SEO of the main website.
+    - Technologies got to work on: `Javascript` 
+* Senior Software Engineer, Homegate AG, Zürich, ZH, Switzerland (Aug. 2018 – Mar. 2020)
     - Worked on the reengineering of the Product Display Page and Search Alerts.
     - Introduced new ideas into the teams to improve the effectiveness of our work, such as Pair Programming, Continuous Delivery and Trunk-Based Development
     - Improved observability of the applications by introducing tools like Datadog and Sentry

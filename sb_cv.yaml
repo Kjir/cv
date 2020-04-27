@@ -6,9 +6,6 @@ firstname: Stéphane
 familyname: Bisinger
 github_id: Kjir
 bio_data:
-  email: "stephane@sbisinger.ch"
-  phone: "+41 79 635 28 61"
-  website: https://www.sbisinger.ch
   stars:
       - Serverless Architecture
       - eXtreme Programming
@@ -46,11 +43,21 @@ bio_data:
               - MySQL
   experience:
     items:
+        - title: Software Crafter
+          organisation: 42talents GmbH
+          location: Zürich, ZH, Switzerland
+          from: Apr. 2020
+          to: Current
+          details:
+            - Optimized the performance and SEO of the main website.
+          technology_used:
+            tools:
+              - Javascript
         - title: Senior Software Engineer
           organisation: Homegate AG
           location: Zürich, ZH, Switzerland
           from: Aug. 2018
-          to: Current
+          to: Mar. 2020
           details:
             - Worked on the reengineering of the Product Display Page and Search Alerts.
             - Introduced new ideas into the teams to improve the effectiveness of
