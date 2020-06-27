@@ -7,9 +7,12 @@
   "author": "Stéphane Bisinger <stephane.bisinger@renuo.ch>",
   "license": "MIT",
   "dependencies": {
-    "resume-cli": "^0.4.19"
+    "jsonresume-theme-spartan-extended": "^0.4.1",
+    "resume-cli": "^1.2.8"
   },
   "scripts": {
-    "resume": "node_modules/.bin/resume"
+    "resume": "resume",
+    "pdf": "resume export --theme spartan-extended stephane_bisinger_cv.pdf",
+    "postpdf": "cp stephane_bisinger_cv.pdf versions/$(date +%F)_cv.pdf"
   }
 }

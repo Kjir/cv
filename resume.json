@@ -1,16 +1,18 @@
 {
+  "meta": {
+    "theme": "kwan"
+  },
   "basics": {
     "name": "Stéphane Bisinger",
-    "label": "Software Developer",
-    "picture": "https://www.sbisinger.ch/images/profile.png",
-    "email": "stephane.bisinger@protonmail.com",
+    "label": "Software Engineer",
+    "email": "stephane@sbisinger.ch",
     "website": "https://www.sbisinger.ch",
-    "phone": "+41 (0)79 635 2861",
-    "summary": "",
+    "phone": "+41 79 635 2861",
+    "summary": "Software Engineer on the web and the cloud since year 2000. From Single Page Applications to Streaming Data Pipelines, I love facing tough challenges, finding viable solutions and ensuring the highest level of quality.",
     "location": {
       "city": "Zurich",
-      "countryCode": "Switzerland",
-      "postalCode": "8050"
+      "countryCode": "CH",
+      "postalCode": "8053"
     },
     "profiles": [
       {
@@ -32,30 +34,90 @@
   },
   "work": [
     {
+      "company": "42talents GmbH",
+      "position": "Software Crafter",
+      "website": "https://42talents.com",
+      "startDate": "2020-04-15",
+      "endDate": "2020-06-30",
+      "summary": "Software Crafter, trainer and coach for 42talents. Focused on frontend development, web performance, serverless architectures and extreme programming.",
+      "highlights": [
+        "Optimized the performance and SEO of the main website.",
+        "Developed a Proof-of-Concept for a web shop with Strapi and a static site generator.",
+        "Prepared teaching materials and introductions for workshops."
+      ]
+    },
+    {
+      "company": "Homegate AG",
+      "position": "Senior Software Engineer",
+      "website": "https://www.homegate.ch",
+      "startDate": "2018-08-20",
+      "endDate": "2020-03-31",
+      "summary": "Homegate is one of the biggest marketplaces for properties and apartments in Switzerland.",
+      "highlights": [
+        "Worked on the reengineering of the Product Display Page and Search Alerts.",
+        "Introduced new ideas into the teams to improve the effectiveness of our work, such as Pair Programming, Continuous Delivery and Trunk-Based Development",
+        "Improved observability of the applications by introducing tools like Datadog and Sentry",
+        "Worked on automation of all tasks, including production deployments and quality checks.",
+        "Solved complex problems like Server-Side Rendering and Code Splitting in a serverless context.",
+        "Helped the team split tasks in small deliverables with fast iterations.",
+        "Took care of leading the technical decisions in collaboration with the rest of the team.",
+        "Held a course on Webpack for the TX Academy."
+      ]
+    },
+    {
+      "company": "siroop AG",
+      "position": "Senior Software Engineer",
+      "website": "https://www.siroop.ch",
+      "startDate": "2018-02-01",
+      "endDate": "2018-07-31",
+      "summary": "siroop was an online marketplace for Switzerland",
+      "highlights": [
+        "Worked on the streaming data pipeline for product and price updates from merchants.",
+        "Rewrote Lambdas to process category information to simplify and support additional languages.",
+        "Refactored a Flask API to be able to switch between DynamoDB and Elasticsearch as source for data.",
+        "Wrote an alternative consumer for product data reading from RabbitMQ.",
+        "Took a leading role in the analysis, planning and implementation of the promotion concept."
+      ]
+    },
+    {
       "company": "Renuo AG",
       "position": "Full Stack Developer",
       "website": "https://www.renuo.ch",
       "startDate": "2016-11-01",
+      "endDate": "2018-02-28",
       "summary": "Renuo is a web agency specialized in Ruby on Rails and Angular. Among my duties and accomplishments are:",
       "highlights": [
         "The development of a Ruby on Rails and Angular 2 single page application for a big insurance company.",
         "I am in charge of all the servers, I cleaned them up and promoted a shift towards a serverless architecture.",
-        "I train and help interns and junior developers through pair programming, live coding and presentations.",
-        "I deepen my knowledge of functional programming and other technologies: React + Redux, Elixir, Elm, etc."
+        "I train and help interns and junior developers through pair programming, live coding and presentations."
       ]
     },
     {
+      "company": "Vendini",
+      "position": "Senior Software Engineer",
+      "website": "https://vendini.com/",
+      "startDate": "2015-07-01",
+      "endDate": "2016-09-01"
+    },
+    {
+      "company": "TeamSystem SpA",
+      "position": "Senior Software Engineer",
+      "website": "https://www.teamsystem.com/",
+      "startDate": "2013-05-01",
+      "endDate": "2015-06-01"
+    },
+    {
+      "company": "Various positions",
+      "position": "Software Engineer",
+      "startDate": "2006-11-01",
+      "endDate": "2013-04-01"
+    },
+    {
       "company": "Istituto di Radioastronomia di Medicina",
-      "position": "C++ Developer",
+      "position": "C++ Developer (Intern)",
       "website": "http://www.med.ira.inaf.it/",
       "startDate": "2009-05-01",
-      "endDate": "2010-06-01",
-      "summary": "As part of my studies I undertook an internship, and later wrote my thesis, at the Institute of Radioastronomy, writing a software spectrum analyzer. The main highlights were:",
-      "highlights": [
-        "The development of a spectrum analyzer using the Intel IPP C++ library's implementation of the Fast Fourier Transform.",
-        "Created a modular structure to allow the addition of filters and other transformations.",
-        "Programmed an UDP interface to receive the raw signals from the radio telescopes."
-      ]
+      "endDate": "2010-06-01"
     }
   ],
   "education": [
@@ -71,44 +133,29 @@
     {
       "name": "Backend Development",
       "level": "Master",
-      "keywords": [
-        "Python",
-        "Ruby on Rails",
-        "Elixir",
-        "PostgreSQL",
-        "MySQL"
-      ]
-    },
-    {
-      "name": "General Purpose Development",
-      "level": "Advanced",
-      "keywords": [
-        "C/C++",
-        "Go",
-        "Java"
-      ]
-    },
-    {
-      "name": "Systems Administration",
-      "level": "Advanced",
-      "keywords": [
-        "Linux",
-        "Apache",
-        "nginx",
-        "PostgreSQL",
-        "MySQL"
-      ]
+      "keywords": ["Python", "Ruby on Rails", "PostgreSQL"]
     },
     {
       "name": "Frontend Development",
       "level": "Master",
       "keywords": [
         "Javascript",
-        "Angular",
+        "Vue.js",
         "React",
+        "Webpack",
         "HTML 5",
         "CSS 3"
       ]
+    },
+    {
+      "name": "AWS",
+      "level": "Advanced",
+      "keywords": ["DynamoDB", "Lambda", "SQS", "Serverless"]
+    },
+    {
+      "name": "Agile",
+      "level": "Advanced",
+      "keywords": ["TDD", "Pair Programming", "CI/CD"]
     }
   ],
   "languages": [
@@ -126,28 +173,7 @@
     },
     {
       "language": "German",
-      "fluency": "Around B1 level"
-    }
-  ],
-  "interests": [
-    {
-      "name": "Traveling"
-    },
-    {
-      "name": "Chess"
-    },
-    {
-      "name": "Sports",
-      "keywords": [
-        "Swimming",
-        "Kung Fu"
-      ]
-    }
-  ],
-  "references": [
-    {
-      "name": "Erlich Bachman",
-      "reference": "It is my pleasure to recommend Richard, his performance working as a consultant for Main St. Company proved that he will be a valuable addition to any company."
+      "fluency": "Around C1 level"
     }
   ]
 }
