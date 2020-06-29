@@ -73,7 +73,7 @@
       "summary": "siroop was an online marketplace for Switzerland",
       "highlights": [
         "Worked on the streaming data pipeline for product and price updates from merchants.",
-        "Rewrote Lambdas to process category information to simplify and support additional languages.",
+        "Rewrote Lambdas to process category information to simplify code and support additional languages.",
         "Refactored a Flask API to be able to switch between DynamoDB and Elasticsearch as source for data.",
         "Wrote an alternative consumer for product data reading from RabbitMQ.",
         "Took a leading role in the analysis, planning and implementation of the promotion concept."

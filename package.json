@@ -7,6 +7,7 @@
   "author": "Stéphane Bisinger <stephane.bisinger@renuo.ch>",
   "license": "MIT",
   "dependencies": {
+    "jsonresume-theme-classy": "^1.0.9",
     "jsonresume-theme-spartan-extended": "^0.4.1",
     "resume-cli": "^1.2.8"
   },
