@@ -9,7 +9,6 @@
     "website": "https://www.sbisinger.ch",
     "phone": "+41 79 635 2861",
     "summary": "Software Engineer on the web and the cloud since year 2000. From Single Page Applications to Streaming Data Pipelines, I love facing tough challenges, finding viable solutions and ensuring the highest level of quality.",
-"picture": "https://www.sbisinger.ch/images/cv_profile.jpg",
     "location": {
       "city": "Zurich",
       "countryCode": "CH",
@@ -45,7 +44,7 @@
         "Optimized the performance and SEO of the main website.",
         "Developed a Proof-of-Concept for a web shop with Strapi and a static site generator.",
         "Prepared teaching materials and introductions for workshops.",
-"Technologies used: Strapi (nodejs), eleventy (nodejs), middleman (ruby)"
+        "Technologies used: Strapi (nodejs), eleventy (nodejs), middleman (ruby)"
       ]
     },
     {
@@ -64,7 +63,7 @@
         "Helped the team split tasks in small deliverables with fast iterations.",
         "Took care of leading the technical decisions in collaboration with the rest of the team.",
         "Held a course on Webpack for the TX Academy.",
-"Technologies used: AWS, nodejs, webpack, Vue.js, NoSQL, Serverless"
+        "Technologies used: AWS, nodejs, webpack, Vue.js, NoSQL, Serverless"
       ]
     },
     {
@@ -80,7 +79,7 @@
         "Refactored a Flask API to be able to switch between DynamoDB and Elasticsearch as source for data.",
         "Wrote an alternative consumer for product data reading from RabbitMQ.",
         "Took a leading role in the analysis, planning and implementation of the promotion concept.",
-"Technologies used: AWS, nodejs, Python, Django, RabbitMQ, NoSQL, PostgreSQL"
+        "Technologies used: AWS, nodejs, Python, Django, RabbitMQ, NoSQL, PostgreSQL"
       ]
     },
     {
@@ -94,7 +93,7 @@
         "The development of a Ruby on Rails and Angular 2 single page application for a big insurance company.",
         "Taking responsibility for all the servers, reorganizing them and promoting a shift towards a cloud/serverless architecture.",
         "Training interns and junior developers through pair programming, live coding and presentations.",
-"Technologies used: Ruby on Rails, Angular, HTML5, CSS3, PostgreSQL"
+        "Technologies used: Ruby on Rails, Angular, HTML5, CSS3, PostgreSQL"
       ]
     },
     {
