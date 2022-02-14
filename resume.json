@@ -21,11 +21,6 @@
         "url": "https://github.com/Kjir"
       },
       {
-        "network": "Stack Overflow",
-        "username": "Kjir",
-        "url": "https://stackoverflow.com/story/stebis"
-      },
-      {
         "network": "Twitter",
         "username": "SteBjoerne",
         "url": "https://twitter.com/SteBjoerne"
@@ -33,6 +28,19 @@
     ]
   },
   "work": [
+    {
+      "company": "Rentouch GmbH",
+      "position": "Senior Software Engineer",
+      "website": "https://www.piplanning.io",
+      "startDate": "2020-09-01",
+      "summary": "Rentouch develops the piplanning app; a virtual solution that allows companies to hold SAFe PI planning sessions remotely. It is a whiteboard with stickies that can be synchronized to Jira/Azure DevOps/Rally written in Vue and backed by Python-based microservices. Updates are synchronized in real time through persistent WebSocket connections.",
+      "highlights": [
+        "Introduced the idea of a styleguide and generic reusable components to consolidate the various widgets.",
+        "Added tests and helped the team familiarize with approaches and tools to make tests more descriptive and maintainable.",
+        "Improved the security of the Docker images and the authorization code. This includes the creation of Proof-of-Concepts to demonstrate the potential issue.",
+        ""
+      ]
+    },
     {
       "company": "42talents GmbH",
       "position": "Software Crafter",
