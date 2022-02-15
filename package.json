@@ -7,14 +7,16 @@
   "author": "Stéphane Bisinger <stephane.bisinger@renuo.ch>",
   "license": "MIT",
   "dependencies": {
+    "jsonresume-theme-autumn": "^1.0.1",
     "jsonresume-theme-classy": "^1.0.9",
-    "jsonresume-theme-paper": "^0.3.5",
-    "jsonresume-theme-spartan-extended": "^0.4.1",
-    "resume-cli": "^1.2.8"
+    "jsonresume-theme-even": "^0.16.1",
+    "jsonresume-theme-paper": "^0.5.0",
+    "jsonresume-theme-spartan-extended": "^0.5.0",
+    "resume-cli": "^3.0.5"
   },
   "scripts": {
     "resume": "resume",
-    "pdf": "resume export --theme spartan-extended stephane_bisinger_cv.pdf",
+    "pdf": "resume export --theme autumn stephane_bisinger_cv.pdf",
     "postpdf": "cp stephane_bisinger_cv.pdf versions/$(date +%F)_cv.pdf"
   }
 }

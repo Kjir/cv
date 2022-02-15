@@ -1,6 +1,6 @@
 {
   "meta": {
-    "theme": "kwan"
+    "theme": "autumn"
   },
   "basics": {
     "name": "Stéphane Bisinger",
@@ -8,7 +8,7 @@
     "email": "stephane@sbisinger.ch",
     "website": "https://www.sbisinger.ch",
     "phone": "+41 79 635 2861",
-    "summary": "Software Engineer on the web and the cloud since year 2000. From Single Page Applications to Streaming Data Pipelines, I love facing tough challenges, finding viable solutions and ensuring the highest level of quality.",
+    "summary": "Software Engineer with a variety of experiences both on the frontend and backend side of applications. I enjoy working in self-organizing teams who take ownership of the product they develop and work in a collaborative environment.",
     "location": {
       "city": "Zurich",
       "countryCode": "CH",
@@ -21,9 +21,9 @@
         "url": "https://github.com/Kjir"
       },
       {
-        "network": "Twitter",
-        "username": "SteBjoerne",
-        "url": "https://twitter.com/SteBjoerne"
+        "network": "Gitlab",
+        "username": "Kjir",
+        "url": "https://gitlab.com/Kjir"
       }
     ]
   },
@@ -32,21 +32,22 @@
       "company": "Rentouch GmbH",
       "position": "Senior Software Engineer",
       "website": "https://www.piplanning.io",
-      "startDate": "2020-09-01",
-      "summary": "Rentouch develops the piplanning app; a virtual solution that allows companies to hold SAFe PI planning sessions remotely. It is a whiteboard with stickies that can be synchronized to Jira/Azure DevOps/Rally written in Vue and backed by Python-based microservices. Updates are synchronized in real time through persistent WebSocket connections.",
+      "startDate": "2020-09",
+      "summary": "Rentouch develops the piplanning app, which enables SAFe PI planning sessions remotely. It is a whiteboard with stickies that can be synchronized to Jira/Azure DevOps/Rally.",
       "highlights": [
-        "Introduced the idea of a styleguide and generic reusable components to consolidate the various widgets.",
-        "Added tests and helped the team familiarize with approaches and tools to make tests more descriptive and maintainable.",
-        "Improved the security of the Docker images and the authorization code. This includes the creation of Proof-of-Concepts to demonstrate the potential issue.",
-        ""
+        "Introduced several practices to improve quality and speed of development, like a living styleguide, reusable components and maintainable tests.",
+        "Improved the security of the application. This includes the creation of Proof-of-Concepts to demonstrate the potential issue.",
+        "Helped both business and development side to apply the Pareto principle and release with an incremental approach.",
+        "Introduced concepts and tools to improve the observability of the system. This includes error reporting, automatic tracing and collection of metrics.",
+        "Technologies used: Python, Javascript/Typescript, Vue.js, Kubernetes, Websockets, PostgreSQL, MongoDB"
       ]
     },
     {
       "company": "42talents GmbH",
       "position": "Software Crafter",
       "website": "https://42talents.com",
-      "startDate": "2020-04-15",
-      "endDate": "2020-06-30",
+      "startDate": "2020-04",
+      "endDate": "2020-06",
       "summary": "Software Crafter, trainer and coach for 42talents. Focused on frontend development, web performance, serverless architectures and extreme programming.",
       "highlights": [
         "Optimized the performance and SEO of the main website.",
@@ -59,17 +60,14 @@
       "company": "Homegate AG",
       "position": "Senior Software Engineer",
       "website": "https://www.homegate.ch",
-      "startDate": "2018-08-20",
-      "endDate": "2020-03-31",
-      "summary": "Homegate is one of the biggest marketplaces for properties and apartments in Switzerland.",
+      "startDate": "2018-08",
+      "endDate": "2020-03",
+      "summary": "Homegate is one of the biggest marketplaces for properties and apartments in Switzerland. I was part of the teams reengineering the notification system for new properties and the product display page.",
       "highlights": [
-        "Worked on the reengineering of the Product Display Page and Search Alerts.",
-        "Introduced new ideas into the teams to improve the effectiveness of our work, such as Pair Programming, Continuous Delivery and Trunk-Based Development",
-        "Improved observability of the applications by introducing tools like Datadog and Sentry",
-        "Worked on automation of all tasks, including production deployments and quality checks.",
-        "Solved complex problems like Server-Side Rendering and Code Splitting in a serverless context.",
-        "Helped the team split tasks in small deliverables with fast iterations.",
-        "Took care of leading the technical decisions in collaboration with the rest of the team.",
+        "Guided the team to achieve Continuous Delivery with automated QA, pair programming, fast iterations and complete automation.",
+        "Started the journey to observability through tools like Datadog and Sentry.",
+        "Solved complex and novel problems like Server-Side Rendering and Code Splitting in a serverless context.",
+        "Lead technical decisions in collaboration with the rest of the team.",
         "Held a course on Webpack for the TX Academy.",
         "Technologies used: AWS, nodejs, webpack, Vue.js, NoSQL, Serverless"
       ]
@@ -78,15 +76,15 @@
       "company": "siroop AG",
       "position": "Senior Software Engineer",
       "website": "https://www.siroop.ch",
-      "startDate": "2018-02-01",
-      "endDate": "2018-07-31",
+      "startDate": "2018-02",
+      "endDate": "2018-07",
       "summary": "siroop was an online marketplace for Switzerland",
       "highlights": [
         "Worked on the streaming data pipeline for product and price updates from merchants.",
-        "Rewrote Lambdas to process category information to simplify code and support additional languages.",
+        "Rewrote the pipeline to process product categories and support internationalization.",
         "Refactored a Flask API to be able to switch between DynamoDB and Elasticsearch as source for data.",
-        "Wrote an alternative consumer for product data reading from RabbitMQ.",
-        "Took a leading role in the analysis, planning and implementation of the promotion concept.",
+        "Wrote an alternative entrypoint for product data using RabbitMQ as a source.",
+        "Took a leading role in the analysis, planning and implementation of a product promotion.",
         "Technologies used: AWS, nodejs, Python, Django, RabbitMQ, NoSQL, PostgreSQL"
       ]
     },
@@ -94,8 +92,8 @@
       "company": "Renuo AG",
       "position": "Full Stack Developer",
       "website": "https://www.renuo.ch",
-      "startDate": "2016-11-01",
-      "endDate": "2018-02-28",
+      "startDate": "2016-11",
+      "endDate": "2018-02",
       "summary": "Renuo is a web agency specialized in Ruby on Rails and Angular. Among my duties and accomplishments are:",
       "highlights": [
         "The development of a Ruby on Rails and Angular 2 single page application for a big insurance company.",
@@ -108,21 +106,21 @@
       "company": "Vendini",
       "position": "Senior Software Engineer",
       "website": "https://vendini.com/",
-      "startDate": "2015-07-01",
-      "endDate": "2016-09-01"
+      "startDate": "2015-07",
+      "endDate": "2016-09"
     },
     {
       "company": "TeamSystem SpA",
       "position": "Senior Software Engineer",
       "website": "https://www.teamsystem.com/",
-      "startDate": "2013-05-01",
-      "endDate": "2015-06-01"
+      "startDate": "2013-05",
+      "endDate": "2015-06"
     },
     {
       "company": "Various positions",
       "position": "Software Engineer",
-      "startDate": "2006-11-01",
-      "endDate": "2013-04-01"
+      "startDate": "2006-11",
+      "endDate": "2013-04"
     }
   ],
   "education": [
@@ -130,19 +128,17 @@
       "institution": "Università di Bologna",
       "area": "Information Technology",
       "studyType": "Bachelor",
-      "startDate": "2003-09-01",
-      "endDate": "2010-10-01"
+      "startDate": "2003-09",
+      "endDate": "2010-10"
     }
   ],
   "skills": [
     {
       "name": "Backend Development",
-      "level": "Master",
-      "keywords": ["Python", "Ruby on Rails", "PostgreSQL"]
+      "keywords": ["Python", "Ruby on Rails", "Node", "PostgreSQL"]
     },
     {
       "name": "Frontend Development",
-      "level": "Master",
       "keywords": [
         "Javascript",
         "Vue.js",
@@ -154,13 +150,11 @@
     },
     {
       "name": "AWS",
-      "level": "Advanced",
       "keywords": ["DynamoDB", "Lambda", "SQS", "Serverless"]
     },
     {
       "name": "Agile",
-      "level": "Advanced",
-      "keywords": ["TDD", "Pair Programming", "CI/CD"]
+      "keywords": ["TDD", "Pair Programming", "Continuous Delivery"]
     }
   ],
   "languages": [
