@@ -12,6 +12,8 @@
     "jsonresume-theme-even": "^0.16.1",
     "jsonresume-theme-paper": "^0.5.0",
     "jsonresume-theme-spartan-extended": "^0.5.0",
+    "jsonresume-theme-stackoverflow": "^2.0.0",
+    "jsonresume-theme-stackunderflow": "^0.0.20",
     "resume-cli": "^3.0.5"
   },
   "scripts": {

@@ -1,6 +1,6 @@
 {
   "meta": {
-    "theme": "autumn"
+    "theme": "stackoverflow"
   },
   "basics": {
     "name": "Stéphane Bisinger",
@@ -29,21 +29,24 @@
   },
   "work": [
     {
-      "company": "Rentouch GmbH",
+      "name": "Rentouch GmbH",
       "position": "Senior Software Engineer",
       "website": "https://www.piplanning.io",
       "startDate": "2020-09",
       "summary": "Rentouch develops the piplanning app, which enables SAFe PI planning sessions remotely. It is a whiteboard with stickies that can be synchronized to Jira/Azure DevOps/Rally.",
       "highlights": [
+        "Developed the frontend applications while creating a library of shared, reusable components documented in a styleguide.",
+        "Added functionalities and optimized existing code in the Python microservices.",
+        "Gradually migrated the messaging system from WAMP to NATS",
         "Introduced several practices to improve quality and speed of development, like a living styleguide, reusable components and maintainable tests.",
         "Improved the security of the application. This includes the creation of Proof-of-Concepts to demonstrate the potential issue.",
         "Helped both business and development side to apply the Pareto principle and release with an incremental approach.",
         "Introduced concepts and tools to improve the observability of the system. This includes error reporting, automatic tracing and collection of metrics.",
-        "Technologies used: Python, Javascript/Typescript, Vue.js, Kubernetes, Websockets, PostgreSQL, MongoDB"
+        "Technologies used: Python, Javascript/Typescript, Vue, Kubernetes, Websockets, PostgreSQL, MongoDB"
       ]
     },
     {
-      "company": "42talents GmbH",
+      "name": "42talents GmbH",
       "position": "Software Crafter",
       "website": "https://42talents.com",
       "startDate": "2020-04",
@@ -57,7 +60,7 @@
       ]
     },
     {
-      "company": "Homegate AG",
+      "name": "Homegate AG",
       "position": "Senior Software Engineer",
       "website": "https://www.homegate.ch",
       "startDate": "2018-08",
@@ -69,11 +72,11 @@
         "Solved complex and novel problems like Server-Side Rendering and Code Splitting in a serverless context.",
         "Lead technical decisions in collaboration with the rest of the team.",
         "Held a course on Webpack for the TX Academy.",
-        "Technologies used: AWS, nodejs, webpack, Vue.js, NoSQL, Serverless"
+        "Technologies used: AWS, nodejs, webpack, Vue, NoSQL, Serverless"
       ]
     },
     {
-      "company": "siroop AG",
+      "name": "siroop AG",
       "position": "Senior Software Engineer",
       "website": "https://www.siroop.ch",
       "startDate": "2018-02",
@@ -89,7 +92,7 @@
       ]
     },
     {
-      "company": "Renuo AG",
+      "name": "Renuo AG",
       "position": "Full Stack Developer",
       "website": "https://www.renuo.ch",
       "startDate": "2016-11",
@@ -99,25 +102,25 @@
         "The development of a Ruby on Rails and Angular 2 single page application for a big insurance company.",
         "Taking responsibility for all the servers, reorganizing them and promoting a shift towards a cloud/serverless architecture.",
         "Training interns and junior developers through pair programming, live coding and presentations.",
-        "Technologies used: Ruby on Rails, Angular, HTML5, CSS3, PostgreSQL"
+        "Technologies used: Ruby on Rails, Angular, HTML, CSS, PostgreSQL"
       ]
     },
     {
-      "company": "Vendini",
+      "name": "Vendini",
       "position": "Senior Software Engineer",
       "website": "https://vendini.com/",
       "startDate": "2015-07",
       "endDate": "2016-09"
     },
     {
-      "company": "TeamSystem SpA",
+      "name": "TeamSystem SpA",
       "position": "Senior Software Engineer",
       "website": "https://www.teamsystem.com/",
       "startDate": "2013-05",
       "endDate": "2015-06"
     },
     {
-      "company": "Various positions",
+      "name": "Various positions",
       "position": "Software Engineer",
       "startDate": "2006-11",
       "endDate": "2013-04"
@@ -135,18 +138,18 @@
   "skills": [
     {
       "name": "Backend Development",
-      "keywords": ["Python", "Ruby on Rails", "Node", "PostgreSQL"]
+      "keywords": [
+        "Python",
+        "Ruby on Rails",
+        "Node",
+        "PostgreSQL",
+        "MongoDB",
+        "Kubernetes"
+      ]
     },
     {
       "name": "Frontend Development",
-      "keywords": [
-        "Javascript",
-        "Vue.js",
-        "React",
-        "Webpack",
-        "HTML 5",
-        "CSS 3"
-      ]
+      "keywords": ["Javascript", "Vue.js", "Vite", "Webpack", "HTML", "CSS"]
     },
     {
       "name": "AWS",
@@ -154,7 +157,11 @@
     },
     {
       "name": "Agile",
-      "keywords": ["TDD", "Pair Programming", "Continuous Delivery"]
+      "keywords": [
+        "Test-Driven Development",
+        "Pair Programming",
+        "Continuous Delivery"
+      ]
     }
   ],
   "languages": [
