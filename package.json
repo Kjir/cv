@@ -9,7 +9,7 @@
   "dependencies": {
     "jsonresume-theme-autumn": "^1.0.1",
     "jsonresume-theme-classy": "^1.0.9",
-    "jsonresume-theme-even": "^0.16.1",
+    "jsonresume-theme-even": "^0.22.0",
     "jsonresume-theme-paper": "^0.5.0",
     "jsonresume-theme-spartan-extended": "^0.5.0",
     "jsonresume-theme-stackoverflow": "^2.0.0",
@@ -18,7 +18,7 @@
   },
   "scripts": {
     "resume": "resume",
-    "pdf": "resume export --theme autumn stephane_bisinger_cv.pdf",
+    "pdf": "resume export --theme paper stephane_bisinger_cv.pdf",
     "postpdf": "cp stephane_bisinger_cv.pdf versions/$(date +%F)_cv.pdf"
   }
 }

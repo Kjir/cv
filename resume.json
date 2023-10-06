@@ -29,10 +29,26 @@
   },
   "work": [
     {
+      "name": "KOF - ETH Zürich",
+      "position": "Scientific Software Engineer",
+      "website": "https://kof.ethz.ch",
+      "startDate": "2022-10",
+      "summary": "The KOF Swiss Economic Institute is a forward-looking research institute that analyses economic developments relevant to Switzerland.",
+      "highlights": [
+        "Stabilized and improved processes to import data from external sources. Improved the error reporting and automated the recovery processes.",
+        "Automated deployments of applications and packages by creating shared reusable templates for the Gitlab CI/CD pipelines.",
+        "Moved the infrastructure and the Airflow DAGs to Kubernetes. Switched to an on-demand workload in place of always-on servers.",
+        "Supported researchers and their assistants with development efforts: identifying root causes of errors, identifying bad data, improving code structure and optimizing the performance of the code.",
+        "Improved infrastructure maintenance, monitoring and tooling. Introduced missing tools like a password manager and Prometheus/Grafana.",
+        "Technologies used: R, Kubernetes, MATLAB, Airflow, PostgreSQL, Python, Javascript, Vue, React, PHP"
+      ]
+    },
+    {
       "name": "Rentouch GmbH",
       "position": "Senior Software Engineer",
       "website": "https://www.piplanning.io",
       "startDate": "2020-09",
+      "endDate": "2022-09",
       "summary": "Rentouch develops the piplanning app, which enables SAFe PI planning sessions remotely. It is a whiteboard with stickies that can be synchronized to Jira/Azure DevOps/Rally.",
       "highlights": [
         "Developed the frontend applications while creating a library of shared, reusable components documented in a styleguide.",
@@ -50,14 +66,7 @@
       "position": "Software Crafter",
       "website": "https://42talents.com",
       "startDate": "2020-04",
-      "endDate": "2020-06",
-      "summary": "Software Crafter, trainer and coach for 42talents. Focused on frontend development, web performance, serverless architectures and extreme programming.",
-      "highlights": [
-        "Optimized the performance and SEO of the main website.",
-        "Developed a Proof-of-Concept for a web shop with Strapi and a static site generator.",
-        "Prepared teaching materials and introductions for workshops.",
-        "Technologies used: Strapi (nodejs), eleventy (nodejs), middleman (ruby)"
-      ]
+      "endDate": "2020-06"
     },
     {
       "name": "Homegate AG",
@@ -129,7 +138,7 @@
   "education": [
     {
       "institution": "Università di Bologna",
-      "area": "Information Technology",
+      "area": "Computer Science",
       "studyType": "Bachelor",
       "startDate": "2003-09",
       "endDate": "2010-10"
@@ -149,11 +158,23 @@
     },
     {
       "name": "Frontend Development",
-      "keywords": ["Javascript", "Vue.js", "Vite", "Webpack", "HTML", "CSS"]
+      "keywords": [
+        "Javascript",
+        "Vue.js",
+        "Vite",
+        "Webpack",
+        "HTML",
+        "CSS"
+      ]
     },
     {
       "name": "AWS",
-      "keywords": ["DynamoDB", "Lambda", "SQS", "Serverless"]
+      "keywords": [
+        "DynamoDB",
+        "Lambda",
+        "SQS",
+        "Serverless"
+      ]
     },
     {
       "name": "Agile",
